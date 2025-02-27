@@ -5,8 +5,12 @@ int main() {
 	setlocale(LC_ALL, "rus");
 	std::cout << "========== выполение 3.3 ==========" << std::endl;
 	std::cout << "========== задание 1 ==========\n" << std::endl;
-	std::string rasa = "Орк", name = "Солнышко";
-	std::cout << "Родился новый " << rasa << ", его зовут " << name << ". Добро пожаловать в этот суровый мир!" << std::endl;
+	std::string race, name;
+	std::cout << "введите расу: " << std::endl;
+	std::cin >> race;
+	std::cout << "введите имя персонажа: " << std::endl;
+	std::cin >> name;
+	std::cout << "Родился новый " << race << ", его зовут " << name << ". Добро пожаловать в этот суровый мир!" << std::endl;
 	std::cout << "\n========== задание 2 ==========\n" << std::endl;
 
 	std::string user_login, user_password;
