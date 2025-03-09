@@ -1,8 +1,7 @@
 
-Задание 5. Усложнение задачи про кирпич
+#Задание 5. Усложнение задачи про кирпич
 
-cpp
-Copy
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
